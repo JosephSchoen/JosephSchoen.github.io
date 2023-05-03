@@ -74,7 +74,7 @@ This website contains lots of information regarding different class projects. Al
 
 Joseph Schoen - joseph.william.schoen@gmail.com
 
-Project Link: [https://github.com/JosephSchoen/CISC_130](https://github.com/JosephSchoen/CISC_130)
+Project Link: [https://josephschoen.github.io/](https://josephschoen.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
