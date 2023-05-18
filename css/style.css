@@ -116,6 +116,7 @@ input[type='checkbox'] {
 .wrap-collabsible { 
     margin: 1.5rem 0; 
 } 
+
   .lbl-toggle { display: block; font-weight: bold;  font-size: 2.0rem; text-align: center; padding: 1rem; color: #000000; background: #1a92c9; cursor: pointer; border-radius: 7px; transition: all 0.5s ease-out; width:60rem;} 
   .lbl-toggle:hover { color: #FFF; } 
   .lbl-toggle::before { content: ' '; display: inline-block; border-top: 5px solid transparent; border-bottom: 5px solid transparent; border-left: 5px solid currentColor; vertical-align: middle; margin-right: .7rem; transform: translateY(-2px); transition: transform .2s ease-out; } 
@@ -126,3 +127,15 @@ input[type='checkbox'] {
   .collapsible-content 
   .content-inner { background: rgba(0, 105, 255, .2); border-bottom: 1px solid rgba(0, 105, 255, .45); border-bottom-left-radius: 7px; border-bottom-right-radius: 7px; padding: .5rem 1rem; } 
   .collapsible-content p { margin-bottom: 0; }
+
+
+  .lbl2-toggle { display: block; font-weight: bold;  font-size: 2.0rem; text-align: center; padding: 1rem; color: #000000; background: #1a92c9; cursor: pointer; border-radius: 7px; transition: all 0.5s ease-out; width:60rem;} 
+  .lbl2-toggle:hover { color: #FFF; } 
+  .lbl2-toggle::before { content: ' '; display: inline-block; border-top: 5px solid transparent; border-bottom: 5px solid transparent; border-left: 5px solid currentColor; vertical-align: middle; margin-right: .7rem; transform: translateY(-2px); transition: transform .2s ease-out; } 
+  .toggle2:checked+.lbl2-toggle2::before { transform: rotate(90deg) translateX(-3px); } 
+  .collapsible-content2 { max-height: 0px; overflow: hidden; transition: max-height .25s ease-in-out; } 
+  .toggle2:checked + .lbl2-toggle2 + .collapsible-content { max-height: 5000px; } 
+  .toggle2:checked+.lbl2-toggle2 { border-bottom-right-radius: 0; border-bottom-left-radius: 0; } 
+  .collapsible-content2 
+  .content-inner2 { background: rgba(0, 105, 255, .2); border-bottom: 1px solid rgba(0, 105, 255, .45); border-bottom-left-radius: 7px; border-bottom-right-radius: 7px; padding: .5rem 1rem; } 
+  .collapsible-content2 p { margin-bottom: 0; }
